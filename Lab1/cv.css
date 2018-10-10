@@ -1,0 +1,50 @@
+body {
+	/*background-image: url("chineseguy.jpg");*/
+	background-color: orange;
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+
+h1{
+	text-align: center;
+	-webkit-animation: mymove 5s infinite; 
+    
+}
+
+header img{
+	height: auto;
+	
+}
+
+
+@-webkit-keyframes mymove {
+    50% {font-size: 70px;}
+}
+
+
+p.a{
+	text-align: center;
+	font-size: 30px;
+}
+
+table,td,th{
+	border: 4px solid blue;
+}
+
+tr:nth-of-type(2n){
+	background-color: gray;
+}
+
+tr:nth-of-type(2n+1){
+	background-color: white;
+}
+
+#limbaje{
+	font-size: 25px;
+	color: fuchsia;
+}
+
+section.cls{
+	color : #ecc6d9;
+}
+
